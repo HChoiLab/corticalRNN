@@ -1,4 +1,4 @@
-## Exploring the architectural biases of the canonical cortical microcircuit
+## Exploring the Architectural Biases of the Canonical Cortical Microcircuit
 
 All architecture files are provided as .py files in the "architectures" folder. These include:
 - CorticalRNN (architecture_original)
