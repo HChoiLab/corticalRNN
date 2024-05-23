@@ -1,5 +1,5 @@
-theme: jekyll-theme-minimal
-title: CorticalRNN
-logo: /images/iclr-fig1-schematic-colour-mod-crop.png
-description: Canonical cortical microcircuit
+theme: jekyll-theme-cayman
+title: Exploring the Architectural Biases of the Canonical Cortical Microcircuit
+description: Leveraging RNNs and representational analyses to study the cortical microcircuit, in light of predictive coding
 show_downloads: true
+google_analytics:
