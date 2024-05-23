@@ -1,0 +1,5 @@
+theme: jekyll-theme-minimal
+title: CorticalRNN
+logo: /images/iclr-fig1-schematic-colour-mod-crop.png
+description: Canonical cortical microcircuit
+show_downloads: true
