@@ -5,7 +5,7 @@
 
 ### Abstract
 
-<div style="text-align: justify; text-align-last: center;">
+<div style="text-align: justify;">
   The cortex plays a crucial role in various perceptual and cognitive functions, driven by its basic unit, the <em>canonical cortical microcircuit</em>.
   Yet, we remain short of a framework that definitively explains the structure-function relationships of this fundamental neuroanatomical motif.
   To better understand how physical substrates of cortical circuitry facilitate their neuronal dynamics, we employ a computational approach using recurrent neural networks and representational analyses.
