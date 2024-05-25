@@ -1,4 +1,4 @@
-![My Image](images/my-image.png)
+![Architecture of the CorticalRNN](images/iclr-fig1-schematic-colour-mod-crop.png)
 
 ## Exploring the Architectural Biases of the Canonical Cortical Microcircuit
 
