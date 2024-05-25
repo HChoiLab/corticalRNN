@@ -3,8 +3,11 @@
   <em>Setup and architecture of the CorticalRNN</em>
 </div>
 
+<!-- Adding whitespace -->
+<div style="line-height:2em;">&nbsp;</div>
+
 <div style="text-align: justify; text-align-last: center;">
-  <strong>Abstract: </strong> The cortex plays a crucial role in various perceptual and cognitive functions, driven by its basic unit, the <em>anonical cortical microcircuit</em>em.
+  The cortex plays a crucial role in various perceptual and cognitive functions, driven by its basic unit, the <em>canonical cortical microcircuit</em>.
   Yet, we remain short of a framework that definitively explains the structure-function relationships of this fundamental neuroanatomical motif.
   To better understand how physical substrates of cortical circuitry facilitate their neuronal dynamics, we employ a computational approach using recurrent neural networks and representational analyses.
   We examine the differences manifested by the inclusion and exclusion of biologically-motivated inter-areal laminar connections on the computational roles of different neuronal populations in the microcircuit of two hierarchically-related areas, throughout learning.
