@@ -1,7 +1,12 @@
-<figure>
+![CorticalRNN architecture](/images/iclr-fig1-schematic-colour-mod-crop.png)
+<div style="text-align: center;">
+  <em>Setup and architecture of the CorticalRNN</em>
+</div>
+
+<!--<figure>
   <img src="/images/iclr-fig1-schematic-colour-mod-crop.png" alt="Architecture of the CorticalRNN">
-  <!--<figcaption style="text-align: center;">Setup and architecture of the CorticalRNN</figcaption>-->
-</figure>
+  <figcaption style="text-align: center;">Setup and architecture of the CorticalRNN</figcaption>
+</figure>-->
 
 ## Exploring the Architectural Biases of the Canonical Cortical Microcircuit
 
