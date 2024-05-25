@@ -1,3 +1,5 @@
+![My Image](images/my-image.png)
+
 ## Exploring the Architectural Biases of the Canonical Cortical Microcircuit
 
 All architecture files are provided as .py files in the "architectures" folder. These include:
