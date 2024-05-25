@@ -3,10 +3,15 @@
   <em>Setup and architecture of the CorticalRNN</em>
 </div>
 
-<!--<figure>
-  <img src="/images/iclr-fig1-schematic-colour-mod-crop.png" alt="Architecture of the CorticalRNN">
-  <figcaption style="text-align: center;">Setup and architecture of the CorticalRNN</figcaption>
-</figure>-->
+<div style="text-align: justify; text-align-last: center;">
+  <strong>Abstract: </strong> The cortex plays a crucial role in various perceptual and cognitive functions, driven by its basic unit, the <em>anonical cortical microcircuit</em>em.
+  Yet, we remain short of a framework that definitively explains the structure-function relationships of this fundamental neuroanatomical motif.
+  To better understand how physical substrates of cortical circuitry facilitate their neuronal dynamics, we employ a computational approach using recurrent neural networks and representational analyses.
+  We examine the differences manifested by the inclusion and exclusion of biologically-motivated inter-areal laminar connections on the computational roles of different neuronal populations in the microcircuit of two hierarchically-related areas, throughout learning.
+  Our findings show that the presence of feedback connections correlates with the functional modularization of cortical populations in different layers, and provides the microcircuit with a natural inductive bias to differentiate expected and unexpected inputs at initialization.
+  Furthermore, when testing the effects of training the microcircuit and its variants with a predictive-coding inspired strategy, we find that doing so helps better encode noisy stimuli in areas of the cortex that receive feedback,
+  all of which combine to suggest evidence for a predictive-coding mechanism serving as an intrinsic operative logic in the cortex.
+</div>
 
 ## Exploring the Architectural Biases of the Canonical Cortical Microcircuit
 
