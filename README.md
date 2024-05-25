@@ -3,8 +3,7 @@
   <em>Setup and architecture of the CorticalRNN</em>
 </div>
 
-<!-- Adding whitespace -->
-<div style="line-height:2em;">&nbsp;</div>
+### Abstract
 
 <div style="text-align: justify; text-align-last: center;">
   The cortex plays a crucial role in various perceptual and cognitive functions, driven by its basic unit, the <em>canonical cortical microcircuit</em>.
@@ -16,8 +15,7 @@
   all of which combine to suggest evidence for a predictive-coding mechanism serving as an intrinsic operative logic in the cortex.
 </div>
 
-## Exploring the Architectural Biases of the Canonical Cortical Microcircuit
-
+### Instructions
 All architecture files are provided as .py files in the "architectures" folder. These include:
 - CorticalRNN (architecture_original)
 - No Feedback (architecture_no_feedback)
