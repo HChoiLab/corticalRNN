@@ -247,7 +247,7 @@ class microcircuit(nn.Module):
 
             ## Inter-areal feedforward 1
             self.WFF1.weight.data.mul_(self.BBFF1) ## Mask the weights
-            projFF1 = self.WFF(xL23) ##L23 --> H4
+            projFF1 = self.WFF1(xL23) ##L23 --> H4
             projFF1 = self.relu(projFF1) ##Only excitatory signals propagate inter-areally
             opProjFF1[:,ii,:] = torch.squeeze(projFF1)
 
@@ -277,7 +277,7 @@ class microcircuit(nn.Module):
 
             ## Inter-areal feedforward 2
             self.WFF2.weight.data.mul_(self.BBFF2) ## Mask the weights
-            projFF2 = self.WFF(xI23) ##L23 --> H4
+            projFF2 = self.WFF2(xI23) ##L23 --> H4
             projFF2 = self.relu(projFF2) ##Only excitatory signals propagate inter-areally
             opProjFF2[:,ii,:] = torch.squeeze(projFF2)
 
@@ -313,12 +313,12 @@ class microcircuit(nn.Module):
 
             ## Inter-areal feedback 2
             self.WFBa2.weight.data.mul_(self.BBFBa2) ## Mask the weights
-            projFBa2 = self.WFBa(xH56)
+            projFBa2 = self.WFBa2(xH56)
             projFBa2 = self.relu(projFBa2) ##Only excitatory signals propagate inter-areally
             opProjFBa2[:,ii,:] = torch.squeeze(projFBa2)
 
             self.WFBb2.weight.data.mul_(self.BBFBb2) ## Mask the weights
-            projFBb2 = self.WFBb(xH56)
+            projFBb2 = self.WFBb2(xH56)
             projFBb2 = self.relu(projFBb2) ##Only excitatory signals propagate inter-areally
             opProjFBb2[:,ii,:] = torch.squeeze(projFBb2)
 
