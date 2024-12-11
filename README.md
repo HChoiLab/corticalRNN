@@ -9,7 +9,7 @@
   The cortex plays a crucial role in various perceptual and cognitive functions, driven by its basic unit, the <em>canonical cortical microcircuit</em>.
   Yet, we remain short of a framework that definitively explains the structure-function relationships of this fundamental neuroanatomical motif.
   To better understand how physical substrates of cortical circuitry facilitate their neuronal dynamics, we employ a computational approach using recurrent neural networks and representational analyses.
-  We examine the differences manifested by the inclusion and exclusion of biologically-motivated inter-areal laminar connections on the computational roles of different neuronal populations in the microcircuit of two hierarchically-related areas, throughout learning.
+  We examine the differences manifested by the inclusion and exclusion of biologically-motivated inter-areal laminar connections on the computational roles of different neuronal populations in the microcircuit of hierarchically-related areas, throughout learning.
   Our findings show that the presence of feedback connections correlates with the functional modularization of cortical populations in different layers, and provides the microcircuit with a natural inductive bias to differentiate expected and unexpected inputs at initialization.
   Furthermore, when testing the effects of training the microcircuit and its variants with a predictive-coding inspired strategy, we find that doing so helps better encode noisy stimuli in areas of the cortex that receive feedback,
   all of which combine to suggest evidence for a predictive-coding mechanism serving as an intrinsic operative logic in the cortex.
